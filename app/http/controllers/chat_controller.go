@@ -42,7 +42,7 @@ func (c *ChatController) Completion(ctx *gin.Context) {
 	}
 
 	cnf := config.LoadConfig()
-	client := gogpt.NewClient(cnf.ApiKey)
+	client := gogpt.NewClient(cnf.APIKey)
 	if request.Messages[0].Role != "system" {
 		newMessage := append([]gogpt.ChatCompletionMessage{
 			{Role: "system", Content: cnf.BotDesc},

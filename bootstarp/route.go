@@ -3,8 +3,8 @@ package bootstarp
 import (
 	"sync"
 
-	"github.com//henkgo/chatgpt/routes"
 	"github.com/gin-gonic/gin"
+	"github.com/henkgo/chatgpt/routes"
 )
 
 var (

@@ -60,7 +60,7 @@ func LoadConfig() *Configuration {
 
 	})
 	if config.APIKey == "" {
-		logger.Danger("config err: api key required")
+		logger.Error("config err: api key required")
 	}
 
 	return config

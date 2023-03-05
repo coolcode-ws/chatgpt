@@ -1,4 +1,4 @@
-module github.com/869413421/chatgpt-web
+module github.com/henkgo/chatgpt
 
 go 1.18
 

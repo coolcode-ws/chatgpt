@@ -1,7 +1,7 @@
 package main
 
-import "github.com/869413421/chatgpt-web/bootstarp"
+import "github.com/henkgo/chatgpt/bootstarp"
 
 func main() {
-	bootstarp.StartWebServer()
+	bootstarp.StartWebChatServer()
 }

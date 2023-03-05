@@ -7,8 +7,8 @@ import (
 	"github.com/henkgo/chatgpt/common/logger"
 )
 
-// StartWebServer :
-func StartWebServer() {
+// StartWebChatServer :
+func StartWebChatServer() {
 	SetUpRoute()
 	initTemplateDir()
 	initStaticServer()
