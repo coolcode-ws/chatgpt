@@ -13,7 +13,7 @@ func StartWebChatServer() {
 	initTemplateDir()
 	initStaticServer()
 
-	if err := router.Run(config.LoadConfig().Addr); err != nil {
+	if err := router.Run(":" + config.LoadConfig().Addr); err != nil {
 		logger.Error("run webserver error %s", err)
 		return
 	}

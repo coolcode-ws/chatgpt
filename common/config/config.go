@@ -33,7 +33,7 @@ func LoadConfig() *Configuration {
 		// default configuration
 		config = &Configuration{
 			MaxTokens:        60,
-			Addr:             "127.0.0.1:8080",
+			Addr:             "8080",
 			Model:            "gpt-3.5-turbo-0301",
 			Temperature:      0.9,
 			TopP:             1,
